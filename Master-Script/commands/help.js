@@ -9,7 +9,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
       .setTitle(`${message.client.user.username} Help`)
-      .setDescription("List of all commands")
+      .setDescription("Prefix for the bot is p!")
       .setColor("#e6e600");
 
     commands.forEach((cmd) => {
