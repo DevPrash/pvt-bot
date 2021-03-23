@@ -6,9 +6,9 @@ module.exports = {
         const vc = message.member.voice.channel;
         if(vc) {
             const connection = vc.join();
-            message.channel.send('Joined the VC');
+            message.channel.send('***Joined the VC***');
         } else {
-            message.reply('You need to join a VC first');
+            message.reply('***You need to join a VC first***');
         }
     }
 }
